@@ -201,11 +201,13 @@ dsh-claude-clawd/
 
 1. 插件目录存在：`%USERPROFILE%\.dsh\profiles\desktop\node_modules\dsh-claude-pet\lib\client.js`
 2. `cordis.patch.yml` 末尾有：
+
    ```yaml
    - insert:
        - id: claude-pet-v2
          name: dsh-claude-pet
    ```
+
 3. 完全退出 DeepSeek Harness 再打开；只按 Ctrl+R 不一定能清掉旧的页面模块
 4. 运行 `verify.ps1`
 5. 如果还看不到，重新运行 `setup.cmd`，再重启
