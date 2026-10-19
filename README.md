@@ -253,7 +253,7 @@ dsh-claude-clawd/
 
 ## 已知限制
 
-- 只在 Windows 10/11、DeepSeek Harness 0.2.1-rc.2、100% 缩放下做过完整视觉验证。
+- 只在 Windows 10/11、DeepSeek Harness 0.2.1-rc.2 上做过视觉验证。
 - 尚未逐项复现：取消、报错、授权等待、两个真实会话切换、多行输入增高、侧栏开合、125%/150% DPI、明暗主题切换、卸载后重装。
 - 这是界面装饰层，不参与 DSH 的输入、发送、附件或会话逻辑。
 - 角色是像素同人素材，不是 DeepSeek 或 Anthropic 的官方资源。
