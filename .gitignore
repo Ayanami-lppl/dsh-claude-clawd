@@ -1,0 +1,12 @@
+*.mp4
+*.zip
+*.log
+backup/
+legacy-v1/
+V2-实施记录.md
+__pycache__/
+Thumbs.db
+.DS_Store
+.env
+.env.*
+node_modules/

@@ -1,0 +1,25 @@
+{
+  "canvas": [
+    56,
+    40
+  ],
+  "anchor": {
+    "x": 34,
+    "y": 37,
+    "note": "character foot center / foot baseline in CSS px"
+  },
+  "idle": "frames/idle.png",
+  "typing": {
+    "rest": "frames/typing-rest.png",
+    "left": "frames/typing-left.png",
+    "right": "frames/typing-right.png"
+  },
+  "typingCycle": [
+    "rest",
+    "left",
+    "rest",
+    "right"
+  ],
+  "frameMs": 140,
+  "note": "Idle is front-facing without a computer. Thinking uses one side master; only the hand moves. All frames share a 56x40 canvas and feet baseline."
+}
